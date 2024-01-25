@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+body {
+  background: #00c8ff;
+}
+.errorMassage.success {
+  color: green;
+}
+.showMassage {
+  color: red;
+}
+.container {
+  max-width: 1140px;
+  margin: auto;
+  height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.signupWrapper {
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  background: #fff;
+  padding: 26px;
+  padding-bottom: 20px;
+  position: relative;
+  margin-top: 60px;
+}
+
+.signupWrapper h1 {
+  text-align: center;
+}
+.allInput input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  background: #e9e9e9;
+  margin-top: 5px;
+}
+
+.allInput span {
+  display: block;
+  margin: 10px 0;
+}
+button#signup {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 35px;
+  padding: 12px 0;
+  background: #00c8ff;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.4s ease;
+}
+button#signup:hover {
+  background: #155b73;
+}
+button#loginBtn {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 35px;
+  padding: 12px 0;
+  background: #00c8ff;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.4s ease;
+}
+button#loginBtn:hover {
+  background: #155b73;
+}
+.alradyUser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.alradyUser a {
+  text-decoration: none;
+}
+
+.or {
+  margin: 7px;
+}
+.errorMassage {
+  position: absolute;
+  top: 45px;
+  color: red;
+}

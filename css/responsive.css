@@ -1,0 +1,70 @@
+@media screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  .headerWrapper {
+    flex-direction: column;
+    height: 90px;
+    justify-content: center;
+    padding-bottom: 18px;
+  }
+  .navlink ul {
+    flex-direction: column;
+  }
+
+  .navlink {
+    position: absolute;
+    background: white;
+    right: 0;
+    top: 0;
+    width: 300px;
+    height: 100vh;
+    z-index: 999;
+    position: fixed;
+    transform: translateX(100%);
+
+    transition: all 1s ease;
+    transition-delay: 0.3s;
+  }
+  .navlink ul li a {
+    padding: 0 0px;
+    font-weight: 400;
+  }
+  .navlink ul li {
+    padding: 14px 20px;
+    border: 1px solid #c5bbbb;
+    border-left: none;
+    border-right: none;
+  }
+  .logo1 {
+    display: block;
+    padding: 32px 20px;
+  }
+  .logo1 i {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .fullbody_black {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #000000d6;
+    z-index: 70;
+    transform: translateX(100%);
+    transition: all 0.9s ease;
+    top: 0;
+    left: 0;
+  }
+  .bar {
+    pointer-events: auto;
+  }
+  .navToggle {
+    transform: translate(0%);
+    transition: all 0.5s linear;
+  }
+}
